@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+   
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ordem de Serviço</title>
+</head>
+<body>
+    <fieldset>
+        <legend>
+            Dados Gerais
+        </legend>
+        <p>
+            <label>Nome:</label>
+            <input type="nome" name="nome" id="Nome">
+            <br>
+            <br>
+            <label>Classe:</label>
+            <input type="classe" name="classe" id="classe">
+            <br>
+            <br>
+            <label>Tipo de Objeto:</label>
+            <select id= "tipo de item">
+                <option value= "1">Motor</option>
+                <option value= "2">Rolamento</option>
+                <option value= "3">Torno Mecânico</option>
+                <option value= "4">Furadeira de Bancada</option>
+            </select>
+            <br>
+            <br>
+    
+            <label>Código de Gerenciamento:</label>
+                <input type="codG" name="codG" id="codG">
+            <br>
+            <br>
+            <label>Peso:</label>
+                <input type="peso" name="peso" id="peso">
+                <br>
+                <br>
+            <label>Em serviço desde:</label>
+            <br>
+            <br>
+            <label>Ano</label>
+            <br>
+        
+            <input type="radio" name="anos" id="anos"> 2018
+            <input type="radio" name="anos" id="anos"> 2019
+            <br>
+            <input type="radio" name="anos" id="anos"> 2020
+            <input type="radio" name="anos" id="anos"> 2021
+            <br>
+            <br>
+            <label>Mês</label>
+            <br>
+                <input type="checkbox"name="serv" id="serv"> Jan
+                <input type="checkbox"name="serv" id="serv"> Fev
+                <input type="checkbox"name="serv" id="serv"> Mar
+                <br>
+                <input type="checkbox"name="serv" id="serv"> Abril
+                <input type="checkbox"name="serv" id="serv"> Maio
+                <input type="checkbox"name="serv" id="serv"> Jun
+                <br>
+                <input type="checkbox"name="serv" id="serv"> Jul
+                <input type="checkbox"name="serv" id="serv"> Agosto
+                <input type="checkbox"name="serv" id="serv"> Set
+                <br>
+                <input type="checkbox"name="serv" id="serv"> Out
+                <input type="checkbox"name="serv" id="serv"> Nov
+                <input type="checkbox"name="serv" id="serv"> Dez
+
+                <br>
+                <br>
+            <label>Tamanho e Dimensões:</label>
+                <input type="dim."name="dim" id="dim.">
+            <br>
+            <br>
+            <label>Número do Inventário:</label>
+                <input type="inv"name="inv" id="inv">
+             </p>
+    </fieldset>
+    
+    <fieldset>
+        <legend>Dados de Referência</legend>
+    <p>
+        <label>Valor aquis.:</label>
+        <input type="valor" name="valor" id="valor">
+        <br>
+        <br>
+        <label>Data da aquisição:</label>
+        <input type="aq" name="aq" id="aq">
+        <br>
+        <br>
+        <label>Imagem:</label>
+        <input type="file" name="foto" class="btn btn-success" accept="image/png, image/jpeg" multiple>
+        
+    </p>
+    </fieldset>
+    
+
+    <input type="submit" value="Enviar">
+    <input type="reset" value="Limpar">
+    </head>
+
+    
+                 
+
+</body>
+</html>
